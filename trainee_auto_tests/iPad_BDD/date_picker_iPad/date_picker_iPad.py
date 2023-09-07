@@ -1,6 +1,6 @@
 from time import sleep
 
-from pytest_bdd import scenario, when, then, given
+from pytest_bdd import when, then, given
 import pytest
 
 

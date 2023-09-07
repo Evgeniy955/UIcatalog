@@ -4,9 +4,9 @@ from selene.support.shared import browser
 
 from environment import options_catalog, chrome_options, DESIRED_CAPS_IOS_2, DESIRED_CAPS_IOS, DESIRED_CAPS_iPad
 # from functions_ipad.buy_iphone import Byiphone
-from functions.ui_catalog import UiCatalogAndroid, CheckPrompt, UiCatalogiOS, UiCatalogiPad
 from selene import Browser, Config
 
+from trainee_auto_tests.functions.ui_catalog import UiCatalogAndroid, CheckPrompt, UiCatalogiOS
 
 config = {
     'uicatalog': (options_catalog, UiCatalogAndroid),

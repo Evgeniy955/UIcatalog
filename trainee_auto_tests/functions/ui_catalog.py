@@ -1,17 +1,14 @@
 from time import sleep, time
 
-from appium.webdriver.common.touch_action import TouchAction
+# from appium.webdriver.common.touch_action import TouchAction
 from selene import be
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 
-
-
-
-from functions.func import Functions
-from locators import locators
+from trainee_auto_tests.functions.func import Functions
+from trainee_auto_tests.locators import locators
 
 
 class UiCatalogAndroid(Functions):

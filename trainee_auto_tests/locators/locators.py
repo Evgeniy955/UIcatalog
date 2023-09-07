@@ -1,6 +1,6 @@
 from selene import by
 
-from functions.func import time_now
+from trainee_auto_tests.functions.func import time_now
 
 # from functions_ipad.func import time_now
 
