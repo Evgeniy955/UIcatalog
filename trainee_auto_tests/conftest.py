@@ -6,12 +6,13 @@ from environment import options_catalog, chrome_options, DESIRED_CAPS_IOS_2, DES
 # from functions_ipad.buy_iphone import Byiphone
 from selene import Browser, Config
 
-from trainee_auto_tests.functions.ui_catalog import UiCatalogAndroid, CheckPrompt, UiCatalogiOS
+from trainee_auto_tests.functions.buy_iphone import Byiphone
+from trainee_auto_tests.functions.ui_catalog import UiCatalogAndroid, CheckPrompt, UiCatalogiOS, UiCatalogiPad
 
 config = {
     'uicatalog': (options_catalog, UiCatalogAndroid),
     'check_prompt': (options_catalog, CheckPrompt),
-    # 'buyiphone': (chrome_options, Byiphone),
+    'buyiphone': (chrome_options, Byiphone),
     'ios_uicatalog': (DESIRED_CAPS_IOS, UiCatalogiOS)
 }
 

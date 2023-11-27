@@ -6,9 +6,9 @@ from trainee_auto_tests.locators import locators
 
 class Byiphone(Functions):
 
-
-    def url_address(self):
-        self.get_url('https://www.apple.com/iphone/buy')
+    @classmethod
+    def url_address(cls):
+        cls.get_url('https://www.apple.com/iphone/buy')
 
     def click_iphone13pro(self):
         self.tap_on_element(locators.iphone13pro)
