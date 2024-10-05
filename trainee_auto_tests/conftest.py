@@ -16,7 +16,7 @@ config = {
     'ios_uicatalog': (DESIRED_CAPS_IOS, UiCatalogiOS)
 }
 
-pytest_plugins = ['iPad_BDD.date_picker_iPad.date_picker_iPad']
+# pytest_plugins = ['iPad_BDD.date_picker_iPad.date_picker_iPad']
 
 # Мне нужно узнать как получить из конфига капабилитиз и класс
 # А в фикстуре распаквать кортеж капабилитиз и класс, передать капабилитиз в драйвер

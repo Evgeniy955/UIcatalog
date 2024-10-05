@@ -11,7 +11,8 @@ options_catalog.platform_version = "13"
 options_catalog.device_name = "R52N80KDYEY"
 options_catalog.app_package = "org.eniblo.uicatalog"
 options_catalog.app_activity = "org.eniblo.uicatalog.MainActivity"
-options_catalog.app = "/Users/halitsy.y/PycharmProjects/UIcatalog/trainee_auto_tests/app_UICatalog/UI Framework Catalog_v0.3.0.apk"
+# options_catalog.app = "/Users/halitsy.y/PycharmProjects/UIcatalog/trainee_auto_tests/app_UICatalog/UI Framework Catalog_v0.3.0.apk"
+options_catalog.app = "C:\\Users\\Yevhen\\PycharmProjects\\UIcatalog\\trainee_auto_tests\\app_UICatalog\\UI Framework Catalog_v0.3.0.apk"
 
 
 chrome_options = webdriver.ChromeOptions()

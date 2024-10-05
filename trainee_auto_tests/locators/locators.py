@@ -18,9 +18,9 @@ calendar_enabled = (by.xpath('//android.view.View[@content-desc="Calendar"]')) #
 # open_calendar = (by.xpath('//*[@text="Select date range"]'))
 open_calendar = {'ANDROID' : by.xpath('//*[@resource-id="ks-calendar-range"]'),
                 'IOS' : '//XCUIElementTypeOther[@name="Date and Time Picker"]'}.get(ENV)
-date_from = {'ANDROID' : by.xpath('(//android.view.View[@content-desc="1"])[1]'),
+date_from = {'ANDROID' : by.xpath('(//android.view.View[@content-desc="5"])[1]'),
             'IOS' : '//XCUIElementTypeButton[@name="Thursday, 22 June"]/XCUIElementTypeOther[2]'}.get(ENV)
-date_to = {'ANDROID' : by.xpath('(//android.view.View[@content-desc="2"])[1]')}.get(ENV)
+date_to = {'ANDROID' : by.xpath('(//android.view.View[@content-desc="12"])')}.get(ENV)
 time = {'IOS' : f'//XCUIElementTypeButton[@name="{time_now[0]}"] | //XCUIElementTypeButton[@name="{time_now[1]}"] | '
                 f'//XCUIElementTypeButton[@name="{time_now[2]}"]'}.get(ENV)
 # time_new = {'IOS' : f'//XCUIElementTypeButton[@name="{time_now()[1]}"]'}.get(ENV)
